@@ -28,5 +28,6 @@ const userSchema = new Schema({
 });
 
 const User = model('User', userSchema);
+console.log("User model created:", User);
 
 module.exports = User;

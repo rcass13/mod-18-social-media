@@ -1,4 +1,3 @@
-
 const express = require('express');
 const mongoose = require('mongoose');
 
@@ -8,11 +7,10 @@ const PORT = process.env.PORT || 3001;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use('/api/users', require('./routes/api/users'));
-app.use('/api/thoughts', require('./routes/api/thoughts'));
+app.use('/api/users', require('./routes/api/user-routes'));
+app.use('/api/thoughts', require('./routes/api/thoughts-routes'));
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/social-network', {
-  useFindAndModify: false,
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/social-network', { // 'mongodb://localhost/social-network', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
