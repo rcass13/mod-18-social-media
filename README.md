@@ -1,8 +1,8 @@
 # mod-18-social-media
 <p>
-    <img src="https://img.shields.io/github/repo-size/jpd61/social-network-api" />
-    <img src="https://img.shields.io/github/languages/top/jpd61/social-network-api"/>
-    <img src="https://img.shields.io/github/last-commit/jpd61/social-network-api" >
+    <img src="https://img.shields.io/github/repo-size/rcass13/mod-18-social-media" />
+    <img src="https://img.shields.io/github/languages/top/rcass13/mod-18-social-media"/>
+    <img src="https://img.shields.io/github/last-commit/rcass13/mod-18-social-media" >
 </p>
   
 <p>
