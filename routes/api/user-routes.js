@@ -41,7 +41,7 @@ router.get('/', async (req, res) => {
     console.log(userData)
     res.json(userData);
   } catch (err) {
-    console.log('Nathan is awesome');
+    console.log('Rose is awesome');
     console.log(err);
     res.status(400).json(err);
   }
